@@ -2,8 +2,9 @@
 #define ROCKET_H
 
 #include <QtCore/qmath.h>
+#include "mainwindow.h"
 
-class Rocket
+class Rocket : MainWindow
 {
 
 public:
