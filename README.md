@@ -4,3 +4,7 @@ This repository contains one of my apps to generate the rocket Nozzle. The calcu
   How to use the apps?
   (1) compile the code using Qt.
   (2) or you can unzip the Executable.rar and run the rocketNozzle.exe in the folder.
+  
+As a test of the code, I back-engineered the rocket nozzle profiles using the published information for the Merline engine by SpaceX (https://en.wikipedia.org/wiki/SpaceX_Merlin), the NASA RS-25 engine (https://rocket.com/space/liquid-engines/rs-25-engine and https://en.wikipedia.org/wiki/RS-25) and the Chinese YF-77 engine (https://en.wikipedia.org/wiki/YF-77). The PNGs list the parameters to match the propulsion data for these engines. The code generates the nozzle profile to reach the propulsion targets.
+
+In this version, I provide a one-dimensional heat transfer code to calculate the wall temperature of the nozzle. This one-dimensional conjugate heat transfer code gives a rough estimation of the metal and gas temperature. This function is needed for the conception study. 
