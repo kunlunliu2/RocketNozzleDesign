@@ -37,14 +37,15 @@ public:
     float residualTime;
 
     Rocket(){
-        MassWeight = 22;
-        Gamma = 1.1;
+        MassWeight = 21.4;
+        Gamma = 1.21;
         temperatureChamber = 3600;
         pressureAmbiant = 101000;
         machChamber = 0.2;
         pressureExit = pressureAmbiant * 0.9;
         pressureRatio = 100;
         areaExit = 3.1415926/4;
+        residualTime = 0.001;
         pressureChamber = pressureExit*pressureRatio;
     }
 

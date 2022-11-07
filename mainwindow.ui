@@ -18,7 +18,7 @@
     <property name="geometry">
      <rect>
       <x>1000</x>
-      <y>520</y>
+      <y>460</y>
       <width>93</width>
       <height>29</height>
      </rect>
@@ -156,7 +156,7 @@
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>Gamma</string>
+         <string>Spec. Heat Ratio</string>
         </property>
        </widget>
       </item>
@@ -373,6 +373,19 @@
     </property>
     <property name="text">
      <string>1 meter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>500</y>
+      <width>93</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Heat transfer</string>
     </property>
    </widget>
   </widget>
